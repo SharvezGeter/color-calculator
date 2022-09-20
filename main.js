@@ -25,10 +25,10 @@ if (decision === "combine"){
          }else if  (color1 === "blue" && color2 === "yellow"){
             console.log(" The combined colors makes: GREEN")
    
-         }else if  (color1 !== "yellow" || "blue"|| "red"){
+         }else if  (color1 !== "yellow" || color1 !== "blue"|| color1 !== "red"){
             console.log(" ERROR ")
     
-         }else if  (color2 !== "blue" || "red"|| "yellow"){
+         }else if  (color2 !== "blue" || color2 !=="red"|| color2!= "yellow"){
                 console.log("ERROR")
 }
 }
@@ -44,7 +44,7 @@ if (decision === "combine"){
       } else if(color3 === "purple"){
         console.log("Deconstructs into: BLUE & RED")
     
-      }else if(color3 !== "purple" || "green" || "orange"){
+      }else if(color3 !== "purple" || color3 !== "green" || color3 !== "orange"){
         console.log(" ERROR ")
     }
  }
